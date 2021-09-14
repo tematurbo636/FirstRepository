@@ -3,4 +3,4 @@ Hello world!
 Good bye!
 Line form user2
 Line from user1
-Some new feature
+line form user1 - lesson about rebase
