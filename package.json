@@ -1,0 +1,29 @@
+{
+  "name": "uicomtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "report": "allure generate ./allure-results --clean && allure open",
+    "mocha-test": "mocha"
+  },
+  "keywords": [],
+  "author": "Oleksii Shaikin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/allure-reporter": "^7.6.1",
+    "@wdio/cli": "^7.6.1",
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.2.0",
+    "chromedriver": "^94.0.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.12.0",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "mocha": "^9.1.2",
+    "nyc": "^15.1.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
